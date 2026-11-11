@@ -1,0 +1,11 @@
+{
+    "name": "PaymentPaystack",
+    "alias": "paymentpaystack",
+    "description": "Paystack payment gateway module.",
+    "keywords": ["payment", "paystack"],
+    "priority": 0,
+    "providers": [
+        "Modules\\PaymentPaystack\\Providers\\PaymentPaystackServiceProvider"
+    ],
+    "files": []
+}

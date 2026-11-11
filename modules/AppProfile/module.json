@@ -1,0 +1,7 @@
+{
+    "name": "AppProfile",
+    "alias": "appprofile",
+    "providers": [
+        "Modules\\AppProfile\\Providers\\AppProfileServiceProvider"
+    ]
+}

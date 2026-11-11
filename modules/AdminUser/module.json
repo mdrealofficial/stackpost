@@ -1,0 +1,8 @@
+{
+    "name": "AdminUser",
+    "alias": "adminuser",
+    "description": "Administrative user management module.",
+    "providers": [
+        "Modules\\AdminUser\\Providers\\AdminUserServiceProvider"
+    ]
+}

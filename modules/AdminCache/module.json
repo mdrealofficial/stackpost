@@ -1,0 +1,5 @@
+{
+    "name": "AdminCache",
+    "alias": "admincache",
+    "description": "Cache and session management module"
+}

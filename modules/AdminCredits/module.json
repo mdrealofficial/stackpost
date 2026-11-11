@@ -1,0 +1,11 @@
+{
+    "name": "AdminCredits",
+    "alias": "admincredits",
+    "description": "Backend credit operations for pack management, top-up ledger review, and usage reporting.",
+    "keywords": ["admin", "credits", "ledger", "usage", "packs"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminCredits\\Providers\\AdminCreditsServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,7 @@
+{
+    "name": "AdminNotifications",
+    "alias": "adminnotifications",
+    "providers": [
+        "Modules\\AdminNotifications\\Providers\\AdminNotificationsServiceProvider"
+    ]
+}

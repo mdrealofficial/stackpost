@@ -1,0 +1,14 @@
+{
+    "name": "AdminCrons",
+    "alias": "admincrons",
+    "description": "Manage system cron jobs and secure cron execution keys.",
+    "keywords": [
+        "admin",
+        "cron",
+        "scheduler"
+    ],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminCrons\\Providers\\AdminCronsServiceProvider"
+    ]
+}

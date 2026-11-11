@@ -1,0 +1,11 @@
+{
+    "name": "AppAIReview",
+    "alias": "appaireview",
+    "description": "AI pre-publish review module.",
+    "keywords": ["ai", "review", "quality"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppAIReview\\Providers\\AppAIReviewServiceProvider"
+    ],
+    "files": []
+}

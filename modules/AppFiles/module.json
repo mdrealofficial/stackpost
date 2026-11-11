@@ -1,0 +1,7 @@
+{
+    "name": "AppFiles",
+    "alias": "appfiles",
+    "providers": [
+        "Modules\\AppFiles\\Providers\\AppFilesServiceProvider"
+    ]
+}

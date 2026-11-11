@@ -1,0 +1,11 @@
+{
+    "name": "AppAIContentPlanner",
+    "alias": "appaicontentplanner",
+    "description": "AI content calendar planner module.",
+    "keywords": ["ai", "planner", "calendar"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppAIContentPlanner\\Providers\\AppAIContentPlannerServiceProvider"
+    ],
+    "files": []
+}

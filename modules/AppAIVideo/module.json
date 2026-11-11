@@ -1,0 +1,11 @@
+{
+    "name": "AppAIVideo",
+    "alias": "appaivideo",
+    "description": "AI video generation workspace module.",
+    "keywords": ["ai", "video", "motion"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppAIVideo\\Providers\\AppAIVideoServiceProvider"
+    ],
+    "files": []
+}

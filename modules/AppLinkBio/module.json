@@ -1,0 +1,11 @@
+{
+    "name": "AppLinkBio",
+    "alias": "applinkbio",
+    "description": "Standalone Link Bio builder with templates, blocks, and public profile pages.",
+    "keywords": ["link bio", "bio page", "landing page", "profile", "creator"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppLinkBio\\Providers\\AppLinkBioServiceProvider"
+    ],
+    "files": []
+}

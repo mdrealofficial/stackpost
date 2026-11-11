@@ -1,0 +1,8 @@
+{
+    "name": "AdminMailServer",
+    "alias": "adminmailserver",
+    "description": "Admin mail server settings module.",
+    "providers": [
+        "Modules\\AdminMailServer\\Providers\\AdminMailServerServiceProvider"
+    ]
+}

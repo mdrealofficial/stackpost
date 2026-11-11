@@ -1,0 +1,7 @@
+{
+    "name": "AppChannelInstagramUnofficial",
+    "alias": "appchannelinstagramunofficial",
+    "providers": [
+        "Modules\\AppChannelInstagramUnofficial\\Providers\\AppChannelInstagramUnofficialServiceProvider"
+    ]
+}

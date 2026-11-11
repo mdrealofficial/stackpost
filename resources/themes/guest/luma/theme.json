@@ -1,0 +1,175 @@
+{
+    "name": "Luma",
+    "description": "Airy, product-led marketing theme for social media planning, publishing, analytics, AI content, and team workspaces.",
+    "version": "2.0.0",
+    "order": 10,
+    "author": "Luma",
+    "tags": ["landing", "saas", "social-media", "scheduler", "light"],
+    "supports": ["light-mode", "dark-mode", "theme-tokens", "reduced-motion"],
+    "recommended_for": ["Social media management SaaS", "AI content planners", "Publishing and analytics platforms"],
+    "thumbnail": "preview.png",
+    "uses_flux": true,
+    "settings": {
+        "schema": {
+            "accent_color": {
+                "type": "color",
+                "label": "Accent color",
+                "default": "#FF6B6B"
+            },
+            "body_bg_color": {
+                "type": "color",
+                "label": "Body background",
+                "default": "#FFFFFF"
+            },
+            "surface_bg_color": {
+                "type": "color",
+                "label": "Surface background",
+                "default": "#FFFFFF"
+            },
+            "header_bg_color": {
+                "type": "color",
+                "label": "Header background",
+                "default": "#FFFFFF"
+            },
+            "header_text_color": {
+                "type": "color",
+                "label": "Header text color",
+                "default": "#0F172A"
+            },
+            "link_color": {
+                "type": "color",
+                "label": "Link color",
+                "default": "#FF6B6B"
+            },
+            "link_hover_color": {
+                "type": "color",
+                "label": "Link hover color",
+                "default": "#101010"
+            },
+            "border_color": {
+                "type": "color",
+                "label": "Border color",
+                "default": "#E8E8EB"
+            },
+            "muted_text_color": {
+                "type": "color",
+                "label": "Muted text color",
+                "default": "#6F7178"
+            },
+            "success_color": {
+                "type": "color",
+                "label": "Success color",
+                "default": "#059669"
+            },
+            "warning_color": {
+                "type": "color",
+                "label": "Warning color",
+                "default": "#D97706"
+            },
+            "danger_color": {
+                "type": "color",
+                "label": "Danger color",
+                "default": "#DC2626"
+            },
+            "font_family": {
+                "type": "select",
+                "label": "Font family",
+                "default": "inter",
+                "options": {
+                    "inter": "Inter",
+                    "instrument-sans": "Instrument Sans",
+                    "plus-jakarta-sans": "Plus Jakarta Sans",
+                    "manrope": "Manrope",
+                    "outfit": "Outfit",
+                    "system": "System"
+                }
+            },
+            "page_max_width": {
+                "type": "select",
+                "label": "Page max width",
+                "default": "80rem",
+                "options": {
+                    "72rem": "Standard",
+                    "80rem": "Wide",
+                    "86rem": "Product",
+                    "96rem": "Extra wide"
+                }
+            },
+            "supports_dark_mode": {
+                "type": "select",
+                "label": "Dark mode support",
+                "default": "1",
+                "options": {
+                    "0": "Disabled",
+                    "1": "Enabled"
+                }
+            },
+            "allow_user_appearance_toggle": {
+                "type": "select",
+                "label": "Appearance switcher",
+                "default": "1",
+                "options": {
+                    "0": "Disabled",
+                    "1": "Enabled"
+                }
+            },
+            "default_appearance": {
+                "type": "select",
+                "label": "Default appearance",
+                "default": "light",
+                "options": {
+                    "light": "Light",
+                    "system": "System",
+                    "dark": "Dark"
+                }
+            },
+            "section_spacing": {
+                "type": "select",
+                "label": "Section spacing",
+                "default": "6rem",
+                "options": {
+                    "4rem": "Compact",
+                    "5rem": "Comfortable",
+                    "6rem": "Spacious"
+                }
+            },
+            "card_radius": {
+                "type": "number",
+                "label": "Card radius",
+                "default": 18,
+                "min": 0,
+                "max": 28,
+                "step": 1,
+                "unit": "px"
+            },
+            "input_radius": {
+                "type": "number",
+                "label": "Input radius",
+                "default": 12,
+                "min": 0,
+                "max": 24,
+                "step": 1,
+                "unit": "px"
+            },
+            "button_radius": {
+                "type": "number",
+                "label": "Button radius",
+                "default": 12,
+                "min": 0,
+                "max": 24,
+                "step": 1,
+                "unit": "px"
+            },
+            "custom_css": {
+                "type": "textarea",
+                "label": "Custom CSS",
+                "default": ""
+            },
+            "custom_js": {
+                "type": "textarea",
+                "label": "Custom JS",
+                "default": ""
+            }
+        }
+    }
+}

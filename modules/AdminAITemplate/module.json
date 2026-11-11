@@ -1,0 +1,7 @@
+{
+    "name": "AdminAITemplate",
+    "alias": "adminaitemplate",
+    "providers": [
+        "Modules\\AdminAITemplate\\Providers\\AdminAITemplateServiceProvider"
+    ]
+}

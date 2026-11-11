@@ -1,0 +1,11 @@
+{
+    "name": "AppAICompetitorWatch",
+    "alias": "appaicompetitorwatch",
+    "description": "AI competitor watch module.",
+    "keywords": ["ai", "competitor", "strategy", "publishing"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppAICompetitorWatch\\Providers\\AppAICompetitorWatchServiceProvider"
+    ],
+    "files": []
+}

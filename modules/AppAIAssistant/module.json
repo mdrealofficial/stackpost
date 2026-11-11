@@ -1,0 +1,11 @@
+{
+    "name": "AppAIAssistant",
+    "alias": "appaiassistant",
+    "description": "Workspace-wide AI assistant for ideas, caption drafts, approval, and publishing actions.",
+    "keywords": ["ai", "assistant", "ideas", "publishing", "credits"],
+    "priority": 10,
+    "providers": [
+        "Modules\\AppAIAssistant\\Providers\\AppAIAssistantServiceProvider"
+    ],
+    "files": []
+}

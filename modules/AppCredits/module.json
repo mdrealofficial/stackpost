@@ -1,0 +1,11 @@
+{
+    "name": "AppCredits",
+    "alias": "appcredits",
+    "description": "Credit engine, top-up packs, ledger, purchase flows, and portal/admin credit management.",
+    "keywords": ["credits", "topup", "packs", "ai", "billing"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppCredits\\Providers\\AppCreditsServiceProvider"
+    ],
+    "files": []
+}

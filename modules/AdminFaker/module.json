@@ -1,0 +1,7 @@
+{
+    "name": "AdminFaker",
+    "alias": "adminfaker",
+    "providers": [
+        "Modules\\AdminFaker\\Providers\\AdminFakerServiceProvider"
+    ]
+}

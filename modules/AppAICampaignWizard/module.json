@@ -1,0 +1,11 @@
+{
+    "name": "AppAICampaignWizard",
+    "alias": "appaicampaignwizard",
+    "description": "AI campaign wizard module.",
+    "keywords": ["ai", "campaign", "wizard", "publishing"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppAICampaignWizard\\Providers\\AppAICampaignWizardServiceProvider"
+    ],
+    "files": []
+}

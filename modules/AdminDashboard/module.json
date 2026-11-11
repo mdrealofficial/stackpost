@@ -1,0 +1,8 @@
+{
+    "name": "AdminDashboard",
+    "alias": "admindashboard",
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminDashboard\\Providers\\AdminDashboardServiceProvider"
+    ]
+}

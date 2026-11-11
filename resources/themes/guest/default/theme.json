@@ -1,0 +1,235 @@
+{
+    "name": "Guest Default",
+    "description": "Default guest theme with dark mode, language switching, marketing pages, and auth flow support.",
+    "version": "1.0.0",
+    "order": 20,
+    "author": "StackPosts",
+    "tags": ["landing", "saas", "auth", "dark", "light"],
+    "supports": ["light-mode", "dark-mode", "boxed-layout", "theme-tokens"],
+    "recommended_for": ["marketing sites", "public pricing pages", "guest auth flows"],
+    "thumbnail": "preview.png",
+    "uses_flux": true,
+    "settings": {
+        "schema": {
+            "accent_color": {
+                "type": "color",
+                "label": "Accent color",
+                "default": "#8b5cf6"
+            },
+            "body_bg_color": {
+                "type": "color",
+                "label": "Body background",
+                "default": "#070814"
+            },
+            "surface_bg_color": {
+                "type": "color",
+                "label": "Surface background",
+                "default": "#0f1224"
+            },
+            "header_bg_color": {
+                "type": "color",
+                "label": "Header background",
+                "default": "#0b0f1d"
+            },
+            "header_active_color": {
+                "type": "color",
+                "label": "Header active color",
+                "default": "#f8fafc"
+            },
+            "header_text_color": {
+                "type": "color",
+                "label": "Header text color",
+                "default": "#f8fafc"
+            },
+            "link_color": {
+                "type": "color",
+                "label": "Link color",
+                "default": "#8b5cf6"
+            },
+            "link_hover_color": {
+                "type": "color",
+                "label": "Link hover color",
+                "default": "#22d3ee"
+            },
+            "border_color": {
+                "type": "color",
+                "label": "Border color",
+                "default": "#1f2440"
+            },
+            "muted_text_color": {
+                "type": "color",
+                "label": "Muted text color",
+                "default": "#8b93b7"
+            },
+            "success_color": {
+                "type": "color",
+                "label": "Success color",
+                "default": "#059669"
+            },
+            "warning_color": {
+                "type": "color",
+                "label": "Warning color",
+                "default": "#d97706"
+            },
+            "danger_color": {
+                "type": "color",
+                "label": "Danger color",
+                "default": "#dc2626"
+            },
+            "font_family": {
+                "type": "select",
+                "label": "Font family",
+                "default": "plus-jakarta-sans",
+                "options": {
+                    "inter": "Inter",
+                    "instrument-sans": "Instrument Sans",
+                    "plus-jakarta-sans": "Plus Jakarta Sans",
+                    "manrope": "Manrope",
+                    "outfit": "Outfit",
+                    "sora": "Sora",
+                    "space-grotesk": "Space Grotesk",
+                    "public-sans": "Public Sans",
+                    "ibm-plex-sans": "IBM Plex Sans",
+                    "dm-sans": "DM Sans",
+                    "system": "System"
+                }
+            },
+            "layout_width": {
+                "type": "select",
+                "label": "Layout width",
+                "default": "full",
+                "options": {
+                    "full": "Full width",
+                    "boxed": "Boxed"
+                }
+            },
+            "page_max_width": {
+                "type": "select",
+                "label": "Page max width",
+                "default": "96rem",
+                "options": {
+                    "72rem": "Standard",
+                    "80rem": "Wide",
+                    "90rem": "Wide plus",
+                    "96rem": "Extra wide",
+                    "120rem": "Ultra wide",
+                    "129rem": "Cinematic"
+                }
+            },
+            "supports_dark_mode": {
+                "type": "select",
+                "label": "Dark mode support",
+                "default": "1",
+                "options": {
+                    "1": "Enabled",
+                    "0": "Disabled"
+                }
+            },
+            "allow_user_appearance_toggle": {
+                "type": "select",
+                "label": "Appearance switcher",
+                "default": "1",
+                "options": {
+                    "1": "Enabled",
+                    "0": "Disabled"
+                }
+            },
+            "default_appearance": {
+                "type": "select",
+                "label": "Default appearance",
+                "default": "dark",
+                "options": {
+                    "system": "System",
+                    "light": "Light",
+                    "dark": "Dark"
+                }
+            },
+            "density": {
+                "type": "select",
+                "label": "Density",
+                "default": "comfortable",
+                "options": {
+                    "comfortable": "Comfortable",
+                    "compact": "Compact"
+                }
+            },
+            "section_spacing": {
+                "type": "select",
+                "label": "Section spacing",
+                "default": "5rem",
+                "options": {
+                    "4rem": "Compact",
+                    "5rem": "Comfortable",
+                    "6rem": "Spacious"
+                }
+            },
+            "preview_mode": {
+                "type": "select",
+                "label": "Preview mode",
+                "default": "desktop",
+                "options": {
+                    "desktop": "Desktop",
+                    "tablet": "Tablet",
+                    "mobile": "Mobile"
+                }
+            },
+            "card_radius": {
+                "type": "number",
+                "label": "Card radius",
+                "default": 18,
+                "min": 0,
+                "max": 32,
+                "step": 1,
+                "unit": "px"
+            },
+            "input_radius": {
+                "type": "number",
+                "label": "Input radius",
+                "default": 14,
+                "min": 0,
+                "max": 24,
+                "step": 1,
+                "unit": "px"
+            },
+            "button_radius": {
+                "type": "number",
+                "label": "Button radius",
+                "default": 14,
+                "min": 0,
+                "max": 24,
+                "step": 1,
+                "unit": "px"
+            },
+            "button_style": {
+                "type": "select",
+                "label": "Button style",
+                "default": "solid",
+                "options": {
+                    "solid": "Solid",
+                    "soft": "Soft",
+                    "outline": "Outline"
+                }
+            },
+            "button_shadow": {
+                "type": "select",
+                "label": "Button shadow",
+                "default": "soft",
+                "options": {
+                    "none": "None",
+                    "soft": "Soft",
+                    "strong": "Strong"
+                }
+            },
+            "custom_css": {
+                "type": "textarea",
+                "label": "Custom CSS",
+                "default": ""
+            },
+            "custom_js": {
+                "type": "textarea",
+                "label": "Custom JS",
+                "default": ""
+            }
+        }
+    }
+}

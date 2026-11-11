@@ -1,0 +1,11 @@
+{
+    "name": "Payment2Checkout",
+    "alias": "payment2checkout",
+    "description": "2Checkout payment gateway module.",
+    "keywords": ["payment", "2checkout"],
+    "priority": 0,
+    "providers": [
+        "Modules\\Payment2Checkout\\Providers\\Payment2CheckoutServiceProvider"
+    ],
+    "files": []
+}

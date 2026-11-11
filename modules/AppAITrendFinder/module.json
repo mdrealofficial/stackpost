@@ -1,0 +1,11 @@
+{
+    "name": "AppAITrendFinder",
+    "alias": "appaitrendfinder",
+    "description": "AI trend finder module.",
+    "keywords": ["ai", "trend", "ideas", "publishing"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppAITrendFinder\\Providers\\AppAITrendFinderServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "AppUrlShorteners",
+    "alias": "appurlshorteners",
+    "description": "Shared URL shortener capability for shortening publishing links via third-party providers.",
+    "keywords": ["url", "shortener", "bitly", "tinyurl", "rebrandly", "shortio"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppUrlShorteners\\Providers\\AppUrlShortenersServiceProvider"
+    ],
+    "files": []
+}

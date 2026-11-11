@@ -1,0 +1,11 @@
+{
+    "name": "AppChannelXProfiles",
+    "alias": "appchannelxprofiles",
+    "description": "X profile connections and publishing provider.",
+    "keywords": ["x", "twitter", "profile"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppChannelXProfiles\\Providers\\AppChannelXProfilesServiceProvider"
+    ],
+    "files": []
+}

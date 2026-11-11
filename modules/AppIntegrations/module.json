@@ -1,0 +1,8 @@
+{
+    "name": "AppIntegrations",
+    "alias": "appintegrations",
+    "priority": 0,
+    "providers": [
+        "Modules\\AppIntegrations\\Providers\\AppIntegrationsServiceProvider"
+    ]
+}

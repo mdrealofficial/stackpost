@@ -1,0 +1,11 @@
+{
+    "name": "PaymentInstamojo",
+    "alias": "paymentinstamojo",
+    "description": "Instamojo payment gateway module.",
+    "keywords": ["payment", "instamojo"],
+    "priority": 0,
+    "providers": [
+        "Modules\\PaymentInstamojo\\Providers\\PaymentInstamojoServiceProvider"
+    ],
+    "files": []
+}

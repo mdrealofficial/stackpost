@@ -1,0 +1,6 @@
+{
+    "name": "AdminLanguages",
+    "alias": "adminlanguages",
+    "description": "Language management module for localization and translation overrides.",
+    "priority": 0
+}

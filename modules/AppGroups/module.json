@@ -1,0 +1,11 @@
+{
+    "name": "AppGroups",
+    "alias": "appgroups",
+    "description": "Account grouping workspace for publishing and analysis.",
+    "keywords": ["groups", "accounts", "publishing"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppGroups\\Providers\\AppGroupsServiceProvider"
+    ],
+    "files": []
+}

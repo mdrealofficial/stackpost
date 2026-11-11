@@ -1,0 +1,7 @@
+{
+    "name": "AppSupport",
+    "alias": "appsupport",
+    "providers": [
+        "Modules\\AppSupport\\Providers\\AppSupportServiceProvider"
+    ]
+}

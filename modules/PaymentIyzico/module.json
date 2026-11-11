@@ -1,0 +1,14 @@
+{
+    "name": "PaymentIyzico",
+    "alias": "paymentiyzico",
+    "description": "iyzico payment gateway module.",
+    "keywords": [
+        "payment",
+        "iyzico"
+    ],
+    "priority": 0,
+    "providers": [
+        "Modules\\PaymentIyzico\\Providers\\PaymentIyzicoServiceProvider"
+    ],
+    "files": []
+}

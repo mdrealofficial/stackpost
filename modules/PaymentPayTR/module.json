@@ -1,0 +1,14 @@
+{
+    "name": "PaymentPayTR",
+    "alias": "paymentpaytr",
+    "description": "PayTR payment gateway module.",
+    "keywords": [
+        "payment",
+        "paytr"
+    ],
+    "priority": 0,
+    "providers": [
+        "Modules\\PaymentPayTR\\Providers\\PaymentPayTRServiceProvider"
+    ],
+    "files": []
+}

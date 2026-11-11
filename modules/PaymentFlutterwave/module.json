@@ -1,0 +1,11 @@
+{
+    "name": "PaymentFlutterwave",
+    "alias": "paymentflutterwave",
+    "description": "Flutterwave payment gateway module.",
+    "keywords": ["payment", "flutterwave"],
+    "priority": 0,
+    "providers": [
+        "Modules\\PaymentFlutterwave\\Providers\\PaymentFlutterwaveServiceProvider"
+    ],
+    "files": []
+}

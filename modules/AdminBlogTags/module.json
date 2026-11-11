@@ -1,0 +1,7 @@
+{
+    "name": "AdminBlogTags",
+    "alias": "adminblogtags",
+    "providers": [
+        "Modules\\AdminBlogTags\\Providers\\AdminBlogTagsServiceProvider"
+    ]
+}

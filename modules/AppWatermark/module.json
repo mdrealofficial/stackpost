@@ -1,0 +1,11 @@
+{
+    "name": "AppWatermark",
+    "alias": "appwatermark",
+    "description": "Publishing watermark workspace for global and account-level rules.",
+    "keywords": ["watermark", "publishing", "images"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppWatermark\\Providers\\AppWatermarkServiceProvider"
+    ],
+    "files": []
+}

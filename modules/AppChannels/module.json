@@ -1,0 +1,11 @@
+{
+    "name": "AppChannels",
+    "alias": "appchannels",
+    "description": "Unified API integrations and social account management workspace.",
+    "keywords": ["integrations", "social", "accounts", "settings"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppChannels\\Providers\\AppChannelsServiceProvider"
+    ],
+    "files": []
+}

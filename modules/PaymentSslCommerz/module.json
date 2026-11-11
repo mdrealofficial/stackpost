@@ -1,0 +1,11 @@
+{
+    "name": "PaymentSslCommerz",
+    "alias": "paymentsslcommerz",
+    "description": "SSLCOMMERZ payment gateway module.",
+    "keywords": ["payment", "sslcommerz"],
+    "priority": 0,
+    "providers": [
+        "Modules\\PaymentSslCommerz\\Providers\\PaymentSslCommerzServiceProvider"
+    ],
+    "files": []
+}

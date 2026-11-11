@@ -1,0 +1,8 @@
+{
+    "name": "AdminThemes",
+    "alias": "adminthemes",
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminThemes\\Providers\\AdminThemesServiceProvider"
+    ]
+}

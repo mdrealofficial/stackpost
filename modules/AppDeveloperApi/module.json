@@ -1,0 +1,11 @@
+{
+    "name": "AppDeveloperApi",
+    "alias": "appdeveloperapi",
+    "description": "Developer API keys, webhook delivery, and external publishing integration workspace.",
+    "keywords": ["developer", "api", "webhooks", "zapier", "n8n"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppDeveloperApi\\Providers\\AppDeveloperApiServiceProvider"
+    ],
+    "files": []
+}

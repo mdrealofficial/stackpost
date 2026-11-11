@@ -1,0 +1,7 @@
+{
+    "name": "AdminFaqs",
+    "alias": "adminfaqs",
+    "providers": [
+        "Modules\\AdminFaqs\\Providers\\AdminFaqsServiceProvider"
+    ]
+}

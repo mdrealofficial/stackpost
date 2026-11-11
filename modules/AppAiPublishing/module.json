@@ -1,0 +1,11 @@
+{
+    "name": "AppAiPublishing",
+    "alias": "appaipublishing",
+    "description": "AI-powered publishing studio for prompt lists, recurring schedules, generated captions/content/images, and publishing handoff.",
+    "keywords": ["ai", "publishing", "prompts", "schedule", "images"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppAiPublishing\\Providers\\AppAiPublishingServiceProvider"
+    ],
+    "files": []
+}

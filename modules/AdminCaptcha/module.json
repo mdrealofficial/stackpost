@@ -1,0 +1,17 @@
+{
+    "name": "AdminCaptcha",
+    "alias": "admincaptcha",
+    "description": "Admin captcha settings module",
+    "keywords": [
+        "captcha",
+        "admin",
+        "settings"
+    ],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminCaptcha\\Providers\\AdminCaptchaServiceProvider"
+    ],
+    "files": [
+        "Support/helpers.php"
+    ]
+}

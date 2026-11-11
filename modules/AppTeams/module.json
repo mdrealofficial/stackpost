@@ -1,0 +1,11 @@
+{
+    "name": "AppTeams",
+    "alias": "appteams",
+    "description": "Portal team workspace with invites, roles, approvals, and collaboration.",
+    "keywords": ["teams", "workspace", "invites", "approvals"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppTeams\\Providers\\AppTeamsServiceProvider"
+    ],
+    "files": []
+}

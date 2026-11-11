@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 72" fill="none" role="img" aria-label="PayTR">
+  <rect width="256" height="72" rx="18" fill="#FFF4F2"/>
+  <circle cx="38" cy="36" r="20" fill="#D32F2F"/>
+  <path d="M27 36.5c0-5.8 4.7-10.5 10.5-10.5h11.4v21H37.5C31.7 47 27 42.3 27 36.5Z" fill="#fff"/>
+  <path d="M38.5 26h6.6a10 10 0 0 1 0 20h-6.6V26Z" fill="#FFC8C8"/>
+  <text x="72" y="42" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">PayTR</text>
+</svg>

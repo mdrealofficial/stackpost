@@ -1,0 +1,11 @@
+{
+    "name": "AppChannelFacebookPages",
+    "alias": "appchannelfacebookpages",
+    "description": "Facebook Pages integration module registered into AppChannels.",
+    "keywords": ["facebook", "pages", "channels"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppChannelFacebookPages\\Providers\\AppChannelFacebookPagesServiceProvider"
+    ],
+    "files": []
+}

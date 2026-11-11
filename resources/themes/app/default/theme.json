@@ -1,0 +1,299 @@
+{
+    "name": "App Default",
+    "description": "Default backend theme inspired by the old StackPosts app area.",
+    "version": "1.1.0",
+    "order": 10,
+    "author": "StackPosts",
+    "tags": ["dashboard", "admin", "operations", "control-panel"],
+    "supports": ["light-mode", "dark-mode", "sidebar-nav", "theme-tokens"],
+    "recommended_for": ["admin dashboards", "reporting panels", "operations tools"],
+    "thumbnail": "assets/img/theme-preview.svg",
+    "uses_flux": false,
+    "navigation_modes": ["sidebar"],
+    "settings": {
+        "schema": {
+            "accent_color": {
+                "type": "color",
+                "label": "Light accent color",
+                "default": "#4f46e5"
+            },
+            "sidebar_bg_color": {
+                "type": "color",
+                "label": "Light sidebar background",
+                "default": "#f5f7fb"
+            },
+            "header_bg_color": {
+                "type": "color",
+                "label": "Light header background",
+                "default": "#f8fafc"
+            },
+            "header_active_color": {
+                "type": "color",
+                "label": "Light header active color",
+                "default": "#0f172a"
+            },
+            "link_color": {
+                "type": "color",
+                "label": "Light link color",
+                "default": "#4f46e5"
+            },
+            "link_hover_color": {
+                "type": "color",
+                "label": "Light link hover color",
+                "default": "#4338ca"
+            },
+            "border_color": {
+                "type": "color",
+                "label": "Light border color",
+                "default": "#cbd5e1"
+            },
+            "muted_text_color": {
+                "type": "color",
+                "label": "Light muted text color",
+                "default": "#64748b"
+            },
+            "sidebar_text_color": {
+                "type": "color",
+                "label": "Light sidebar text color",
+                "default": "#475569"
+            },
+            "header_text_color": {
+                "type": "color",
+                "label": "Light header text color",
+                "default": "#0f172a"
+            },
+            "success_color": {
+                "type": "color",
+                "label": "Light success color",
+                "default": "#059669"
+            },
+            "warning_color": {
+                "type": "color",
+                "label": "Light warning color",
+                "default": "#d97706"
+            },
+            "danger_color": {
+                "type": "color",
+                "label": "Light danger color",
+                "default": "#dc2626"
+            },
+            "dark_accent_color": {
+                "type": "color",
+                "label": "Dark accent color",
+                "default": "#818cf8"
+            },
+            "dark_sidebar_bg_color": {
+                "type": "color",
+                "label": "Dark sidebar background",
+                "default": "#0d131c"
+            },
+            "dark_header_bg_color": {
+                "type": "color",
+                "label": "Dark header background",
+                "default": "#111827"
+            },
+            "dark_header_active_color": {
+                "type": "color",
+                "label": "Dark header active color",
+                "default": "#f8fafc"
+            },
+            "dark_link_color": {
+                "type": "color",
+                "label": "Dark link color",
+                "default": "#a5b4fc"
+            },
+            "dark_link_hover_color": {
+                "type": "color",
+                "label": "Dark link hover color",
+                "default": "#c7d2fe"
+            },
+            "dark_border_color": {
+                "type": "color",
+                "label": "Dark border color",
+                "default": "#334155"
+            },
+            "dark_muted_text_color": {
+                "type": "color",
+                "label": "Dark muted text color",
+                "default": "#94a3b8"
+            },
+            "dark_sidebar_text_color": {
+                "type": "color",
+                "label": "Dark sidebar text color",
+                "default": "#cbd5e1"
+            },
+            "dark_header_text_color": {
+                "type": "color",
+                "label": "Dark header text color",
+                "default": "#f8fafc"
+            },
+            "dark_success_color": {
+                "type": "color",
+                "label": "Dark success color",
+                "default": "#34d399"
+            },
+            "dark_warning_color": {
+                "type": "color",
+                "label": "Dark warning color",
+                "default": "#f59e0b"
+            },
+            "dark_danger_color": {
+                "type": "color",
+                "label": "Dark danger color",
+                "default": "#f87171"
+            },
+            "font_family": {
+                "type": "select",
+                "label": "Font family",
+                "default": "inter",
+                "options": {
+                    "inter": "Inter",
+                    "instrument-sans": "Instrument Sans",
+                    "plus-jakarta-sans": "Plus Jakarta Sans",
+                    "manrope": "Manrope",
+                    "outfit": "Outfit",
+                    "sora": "Sora",
+                    "space-grotesk": "Space Grotesk",
+                    "public-sans": "Public Sans",
+                    "ibm-plex-sans": "IBM Plex Sans",
+                    "dm-sans": "DM Sans",
+                    "system": "System"
+                }
+            },
+            "layout_width": {
+                "type": "select",
+                "label": "Layout width",
+                "default": "full",
+                "options": {
+                    "full": "Full width",
+                    "boxed": "Boxed"
+                }
+            },
+            "page_max_width": {
+                "type": "select",
+                "label": "Page max width",
+                "default": "105rem",
+                "options": {
+                    "72rem": "Standard",
+                    "80rem": "Wide",
+                    "90rem": "Extra wide",
+                    "105rem": "Workspace"
+                }
+            },
+            "supports_dark_mode": {
+                "type": "select",
+                "label": "Dark mode support",
+                "default": "1",
+                "options": {
+                    "1": "Enabled",
+                    "0": "Disabled"
+                }
+            },
+            "allow_user_appearance_toggle": {
+                "type": "select",
+                "label": "Appearance switcher",
+                "default": "1",
+                "options": {
+                    "1": "Enabled",
+                    "0": "Disabled"
+                }
+            },
+            "default_appearance": {
+                "type": "select",
+                "label": "Default appearance",
+                "default": "system",
+                "options": {
+                    "system": "System",
+                    "light": "Light",
+                    "dark": "Dark"
+                }
+            },
+            "density": {
+                "type": "select",
+                "label": "Density",
+                "default": "comfortable",
+                "options": {
+                    "comfortable": "Comfortable",
+                    "compact": "Compact"
+                }
+            },
+            "section_spacing": {
+                "type": "select",
+                "label": "Section spacing",
+                "default": "1.5rem",
+                "options": {
+                    "1rem": "Compact",
+                    "1.5rem": "Comfortable",
+                    "2rem": "Spacious"
+                }
+            },
+            "preview_mode": {
+                "type": "select",
+                "label": "Preview mode",
+                "default": "desktop",
+                "options": {
+                    "desktop": "Desktop",
+                    "tablet": "Tablet",
+                    "mobile": "Mobile"
+                }
+            },
+            "card_radius": {
+                "type": "number",
+                "label": "Card radius",
+                "default": 16,
+                "min": 0,
+                "max": 32,
+                "step": 1,
+                "unit": "px"
+            },
+            "input_radius": {
+                "type": "number",
+                "label": "Input radius",
+                "default": 12,
+                "min": 0,
+                "max": 24,
+                "step": 1,
+                "unit": "px"
+            },
+            "button_radius": {
+                "type": "number",
+                "label": "Button radius",
+                "default": 12,
+                "min": 0,
+                "max": 24,
+                "step": 1,
+                "unit": "px"
+            },
+            "button_style": {
+                "type": "select",
+                "label": "Button style",
+                "default": "solid",
+                "options": {
+                    "solid": "Solid",
+                    "soft": "Soft",
+                    "outline": "Outline"
+                }
+            },
+            "button_shadow": {
+                "type": "select",
+                "label": "Button shadow",
+                "default": "soft",
+                "options": {
+                    "none": "None",
+                    "soft": "Soft",
+                    "strong": "Strong"
+                }
+            },
+            "custom_css": {
+                "type": "textarea",
+                "label": "Custom CSS",
+                "default": ""
+            },
+            "custom_js": {
+                "type": "textarea",
+                "label": "Custom JS",
+                "default": ""
+            }
+        }
+    }
+}

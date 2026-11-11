@@ -1,0 +1,12 @@
+{
+    "name": "AppPublishing",
+    "alias": "apppublishing",
+    "description": "Publishing calendar workspace for scheduled content.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppPublishing\\Providers\\AppPublishingServiceProvider"
+    ],
+    "files": [],
+    "permission": false
+}

@@ -1,0 +1,12 @@
+{
+    "name": "AppChannelInstagramProfiles",
+    "alias": "appchannelinstagramprofiles",
+    "description": "Instagram profile connection module for App Channels.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppChannelInstagramProfiles\\Providers\\AppChannelInstagramProfilesServiceProvider"
+    ],
+    "files": [],
+    "permission": false
+}

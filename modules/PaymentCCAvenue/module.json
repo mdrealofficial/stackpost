@@ -1,0 +1,11 @@
+{
+    "name": "PaymentCCAvenue",
+    "alias": "paymentccavenue",
+    "description": "CCAvenue payment gateway module.",
+    "keywords": ["payment", "ccavenue"],
+    "priority": 0,
+    "providers": [
+        "Modules\\PaymentCCAvenue\\Providers\\PaymentCCAvenueServiceProvider"
+    ],
+    "files": []
+}

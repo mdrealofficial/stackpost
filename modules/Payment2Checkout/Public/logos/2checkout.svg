@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="64" viewBox="0 0 240 64" fill="none">
+  <rect width="240" height="64" rx="14" fill="white"/>
+  <circle cx="32" cy="32" r="18" fill="#F59E0B" fill-opacity="0.16"/>
+  <path d="M25 35.5L32 24L39 35.5H25Z" fill="#92400E"/>
+  <text x="58" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#92400E">2Checkout</text>
+</svg>

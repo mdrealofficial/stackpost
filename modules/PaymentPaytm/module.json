@@ -1,0 +1,11 @@
+{
+    "name": "PaymentPaytm",
+    "alias": "paymentpaytm",
+    "description": "Paytm payment gateway module.",
+    "keywords": ["payment", "paytm"],
+    "priority": 0,
+    "providers": [
+        "Modules\\PaymentPaytm\\Providers\\PaymentPaytmServiceProvider"
+    ],
+    "files": []
+}

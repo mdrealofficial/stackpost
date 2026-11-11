@@ -1,0 +1,11 @@
+{
+    "name": "AppAIContent",
+    "alias": "appaicontent",
+    "description": "AI content generation module.",
+    "keywords": ["ai", "captions", "social"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppAIContent\\Providers\\AppAIContentServiceProvider"
+    ],
+    "files": []
+}

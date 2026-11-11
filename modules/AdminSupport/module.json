@@ -1,0 +1,7 @@
+{
+    "name": "AdminSupport",
+    "alias": "adminsupport",
+    "providers": [
+        "Modules\\AdminSupport\\Providers\\AdminSupportServiceProvider"
+    ]
+}

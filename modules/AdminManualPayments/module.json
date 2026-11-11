@@ -1,0 +1,7 @@
+{
+    "name": "AdminManualPayments",
+    "alias": "adminmanualpayments",
+    "providers": [
+        "Modules\\AdminManualPayments\\Providers\\AdminManualPaymentsServiceProvider"
+    ]
+}

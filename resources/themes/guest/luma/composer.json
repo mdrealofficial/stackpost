@@ -1,0 +1,10 @@
+{
+    "name": "guest/luma",
+    "description": "Luma guest theme",
+    "type": "laravel-theme",
+    "extra": {
+        "laravel-theme": {
+            "name": "guest/luma"
+        }
+    }
+}

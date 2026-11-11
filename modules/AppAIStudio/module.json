@@ -1,0 +1,11 @@
+{
+    "name": "AppAIStudio",
+    "alias": "appaistudio",
+    "description": "Dedicated AI Studio workspace for caption generation, repurposing, calendar planning, best-time suggestions, review, and semantic search.",
+    "keywords": ["ai", "studio", "captions", "repurpose", "planning", "search"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppAIStudio\\Providers\\AppAIStudioServiceProvider"
+    ],
+    "files": []
+}

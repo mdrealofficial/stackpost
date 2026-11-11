@@ -1,0 +1,12 @@
+{
+    "name": "AdminMarketplace",
+    "alias": "adminmarketplace",
+    "description": "Admin marketplace for package discovery and ZIP installs.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminMarketplace\\Providers\\AdminMarketplaceServiceProvider"
+    ],
+    "files": [],
+    "permission": false
+}

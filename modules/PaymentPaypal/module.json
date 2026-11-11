@@ -1,0 +1,7 @@
+{
+    "name": "PaymentPaypal",
+    "alias": "paymentpaypal",
+    "providers": [
+        "Modules\\PaymentPaypal\\Providers\\PaymentPaypalServiceProvider"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "AppBilling",
+    "alias": "appbilling",
+    "providers": [
+        "Modules\\AppBilling\\Providers\\AppBillingServiceProvider"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "AppCaptions",
+    "alias": "appcaptions",
+    "description": "Caption library for AI and manual content.",
+    "keywords": ["captions", "ai", "content"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppCaptions\\Providers\\AppCaptionsServiceProvider"
+    ],
+    "files": []
+}

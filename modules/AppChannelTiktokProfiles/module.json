@@ -1,0 +1,15 @@
+{
+    "name": "AppChannelTiktokProfiles",
+    "alias": "appchanneltiktokprofiles",
+    "description": "Manual TikTok profile connections for Channels.",
+    "keywords": [
+        "tiktok",
+        "channels",
+        "profiles"
+    ],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppChannelTiktokProfiles\\Providers\\AppChannelTiktokProfilesServiceProvider"
+    ],
+    "files": []
+}

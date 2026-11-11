@@ -1,0 +1,11 @@
+{
+    "name": "AppChannelLinkedinProfiles",
+    "alias": "appchannellinkedinprofiles",
+    "description": "LinkedIn profile connections and shared LinkedIn publishing provider.",
+    "keywords": ["linkedin", "profile"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppChannelLinkedinProfiles\\Providers\\AppChannelLinkedinProfilesServiceProvider"
+    ],
+    "files": []
+}

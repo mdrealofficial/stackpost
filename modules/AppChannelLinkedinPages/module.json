@@ -1,0 +1,11 @@
+{
+    "name": "AppChannelLinkedinPages",
+    "alias": "appchannellinkedinpages",
+    "description": "LinkedIn organization page connections.",
+    "keywords": ["linkedin", "page", "organization"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppChannelLinkedinPages\\Providers\\AppChannelLinkedinPagesServiceProvider"
+    ],
+    "files": []
+}

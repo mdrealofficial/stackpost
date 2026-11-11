@@ -1,0 +1,11 @@
+{
+    "name": "AppBulkPosts",
+    "alias": "appbulkposts",
+    "description": "Bulk CSV publishing workspace with import validation, queue processing, and publishing handoff.",
+    "keywords": ["bulk posts", "csv", "publishing", "scheduling"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppBulkPosts\\Providers\\AppBulkPostsServiceProvider"
+    ],
+    "files": []
+}

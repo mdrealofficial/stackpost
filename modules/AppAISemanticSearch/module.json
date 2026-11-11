@@ -1,0 +1,11 @@
+{
+    "name": "AppAISemanticSearch",
+    "alias": "appaisemanticsearch",
+    "description": "AI semantic search module.",
+    "keywords": ["ai", "search", "semantic"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppAISemanticSearch\\Providers\\AppAISemanticSearchServiceProvider"
+    ],
+    "files": []
+}

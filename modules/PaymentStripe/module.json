@@ -1,0 +1,7 @@
+{
+    "name": "PaymentStripe",
+    "alias": "paymentstripe",
+    "providers": [
+        "Modules\\PaymentStripe\\Providers\\PaymentStripeServiceProvider"
+    ]
+}

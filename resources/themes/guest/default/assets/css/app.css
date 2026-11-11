@@ -1,0 +1,10 @@
+@import "../../../../../themes/shared/css/theme-base.css";
+
+@source "../../../../../views";
+@source "../../resources/views";
+
+@theme {
+    --color-accent: #111827;
+    --color-accent-content: #111827;
+    --color-accent-foreground: #ffffff;
+}

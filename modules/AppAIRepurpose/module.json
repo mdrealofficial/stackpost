@@ -1,0 +1,11 @@
+{
+    "name": "AppAIRepurpose",
+    "alias": "appairepurpose",
+    "description": "AI content repurposing module.",
+    "keywords": ["ai", "repurpose", "content"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppAIRepurpose\\Providers\\AppAIRepurposeServiceProvider"
+    ],
+    "files": []
+}

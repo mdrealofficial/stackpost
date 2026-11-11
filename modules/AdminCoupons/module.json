@@ -1,0 +1,7 @@
+{
+    "name": "AdminCoupons",
+    "alias": "admincoupons",
+    "providers": [
+        "Modules\\AdminCoupons\\Providers\\AdminCouponsServiceProvider"
+    ]
+}

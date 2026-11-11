@@ -1,0 +1,11 @@
+{
+    "name": "AppAIBestTime",
+    "alias": "appaibesttime",
+    "description": "AI best-time recommendation module.",
+    "keywords": ["ai", "timing", "publishing"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppAIBestTime\\Providers\\AppAIBestTimeServiceProvider"
+    ],
+    "files": []
+}

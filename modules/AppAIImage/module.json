@@ -1,0 +1,11 @@
+{
+    "name": "AppAIImage",
+    "alias": "appaiimage",
+    "description": "AI image generation workspace module.",
+    "keywords": ["ai", "image", "visual"],
+    "priority": 0,
+    "providers": [
+        "Modules\\AppAIImage\\Providers\\AppAIImageServiceProvider"
+    ],
+    "files": []
+}

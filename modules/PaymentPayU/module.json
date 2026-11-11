@@ -1,0 +1,11 @@
+{
+    "name": "PaymentPayU",
+    "alias": "paymentpayu",
+    "description": "PayU payment gateway module.",
+    "keywords": ["payment", "payu"],
+    "priority": 0,
+    "providers": [
+        "Modules\\PaymentPayU\\Providers\\PaymentPayUServiceProvider"
+    ],
+    "files": []
+}

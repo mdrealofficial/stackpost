@@ -1,0 +1,8 @@
+{
+    "name": "AdminAI",
+    "alias": "adminai",
+    "description": "Administrative AI configuration and tooling module.",
+    "providers": [
+        "Modules\\AdminAI\\Providers\\AdminAIServiceProvider"
+    ]
+}

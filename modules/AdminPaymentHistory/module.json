@@ -1,0 +1,7 @@
+{
+    "name": "AdminPaymentHistory",
+    "alias": "adminpaymenthistory",
+    "providers": [
+        "Modules\\AdminPaymentHistory\\Providers\\AdminPaymentHistoryServiceProvider"
+    ]
+}
